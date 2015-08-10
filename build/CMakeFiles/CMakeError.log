@@ -1,0 +1,642 @@
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6499b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6499b.dir/build.make CMakeFiles/cmTC_6499b.dir/build
+Building C object CMakeFiles/cmTC_6499b.dir/src.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DHAVE_GCC_PREFERRED_STACK_BOUNDARY -mpreferred-stack-boundary=2   -o CMakeFiles/cmTC_6499b.dir/src.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-mpreferred-stack-boundary=2'
+ERROR    root: [31mcompiler frontend failed to generate LLVM bitcode, halting[0m
+make[1]: *** [CMakeFiles/cmTC_6499b.dir/src.c.o] Error 1
+make: *** [cmTC_6499b/fast] Error 2
+
+Source file was:
+int x = 0; int main(int argc, char **argv) {}
+Determining if the function _strrev exists failed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_38594/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_38594.dir/build.make CMakeFiles/cmTC_38594.dir/build
+Building C object CMakeFiles/cmTC_38594.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=_strrev -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_38594.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_38594.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38594.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=_strrev -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_38594.dir/objects1.rsp  -o cmTC_38594.js  
+error: unresolved symbol: _strrev
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1043, in <module>
+    _main(environ=os.environ)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1033, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/tempfiles.py", line 39, in run_and_clean
+    return func()
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1039, in <lambda>
+    DEBUG_CACHE=DEBUG_CACHE,
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 940, in main
+    temp_files=temp_files, DEBUG=DEBUG, DEBUG_CACHE=DEBUG_CACHE)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 195, in emscript
+    cwd=path_from_root('src'), error_limit=300)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/jsrun.py", line 75, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/usr/local/bin/node', '/usr/local/Cellar/emscripten/1.33.0/libexec/src/compiler.js', '/tmp/tmpBmJAj3.txt'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it, and do the work to get that through
+// closure compiler if necessary. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..gener
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emcc", line 1270, in <module>
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/shared.py", line 1535, in emscripten
+    assert os.path.exists(filename + '.o.js'), 'Emscripten failed to generate .js'
+AssertionError: Emscripten failed to generate .js
+make[1]: *** [cmTC_38594.js] Error 1
+make: *** [cmTC_38594/fast] Error 2
+
+
+Determining if the function _strupr exists failed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6fb4c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6fb4c.dir/build.make CMakeFiles/cmTC_6fb4c.dir/build
+Building C object CMakeFiles/cmTC_6fb4c.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=_strupr -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_6fb4c.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6fb4c.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fb4c.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=_strupr -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_6fb4c.dir/objects1.rsp  -o cmTC_6fb4c.js  
+error: unresolved symbol: _strupr
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1043, in <module>
+    _main(environ=os.environ)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1033, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/tempfiles.py", line 39, in run_and_clean
+    return func()
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1039, in <lambda>
+    DEBUG_CACHE=DEBUG_CACHE,
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 940, in main
+    temp_files=temp_files, DEBUG=DEBUG, DEBUG_CACHE=DEBUG_CACHE)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 195, in emscript
+    cwd=path_from_root('src'), error_limit=300)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/jsrun.py", line 75, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/usr/local/bin/node', '/usr/local/Cellar/emscripten/1.33.0/libexec/src/compiler.js', '/tmp/tmpNqPmCo.txt'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it, and do the work to get that through
+// closure compiler if necessary. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..gener
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emcc", line 1270, in <module>
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/shared.py", line 1535, in emscripten
+    assert os.path.exists(filename + '.o.js'), 'Emscripten failed to generate .js'
+AssertionError: Emscripten failed to generate .js
+make[1]: *** [cmTC_6fb4c.js] Error 1
+make: *** [cmTC_6fb4c/fast] Error 2
+
+
+Determining if the function _strlwr exists failed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_789af/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_789af.dir/build.make CMakeFiles/cmTC_789af.dir/build
+Building C object CMakeFiles/cmTC_789af.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=_strlwr -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_789af.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_789af.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_789af.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=_strlwr -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_789af.dir/objects1.rsp  -o cmTC_789af.js  
+error: unresolved symbol: _strlwr
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1043, in <module>
+    _main(environ=os.environ)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1033, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/tempfiles.py", line 39, in run_and_clean
+    return func()
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1039, in <lambda>
+    DEBUG_CACHE=DEBUG_CACHE,
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 940, in main
+    temp_files=temp_files, DEBUG=DEBUG, DEBUG_CACHE=DEBUG_CACHE)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 195, in emscript
+    cwd=path_from_root('src'), error_limit=300)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/jsrun.py", line 75, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/usr/local/bin/node', '/usr/local/Cellar/emscripten/1.33.0/libexec/src/compiler.js', '/tmp/tmpGhNauj.txt'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it, and do the work to get that through
+// closure compiler if necessary. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..gener
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emcc", line 1270, in <module>
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/shared.py", line 1535, in emscripten
+    assert os.path.exists(filename + '.o.js'), 'Emscripten failed to generate .js'
+AssertionError: Emscripten failed to generate .js
+make[1]: *** [cmTC_789af.js] Error 1
+make: *** [cmTC_789af/fast] Error 2
+
+
+Determining if the function itoa exists failed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be1fe/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_be1fe.dir/build.make CMakeFiles/cmTC_be1fe.dir/build
+Building C object CMakeFiles/cmTC_be1fe.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=itoa -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_be1fe.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_be1fe.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be1fe.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=itoa -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_be1fe.dir/objects1.rsp  -o cmTC_be1fe.js  
+error: unresolved symbol: itoa
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1043, in <module>
+    _main(environ=os.environ)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1033, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/tempfiles.py", line 39, in run_and_clean
+    return func()
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1039, in <lambda>
+    DEBUG_CACHE=DEBUG_CACHE,
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 940, in main
+    temp_files=temp_files, DEBUG=DEBUG, DEBUG_CACHE=DEBUG_CACHE)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 195, in emscript
+    cwd=path_from_root('src'), error_limit=300)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/jsrun.py", line 75, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/usr/local/bin/node', '/usr/local/Cellar/emscripten/1.33.0/libexec/src/compiler.js', '/tmp/tmpV6bQQq.txt'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it, and do the work to get that through
+// closure compiler if necessary. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..gener
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emcc", line 1270, in <module>
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/shared.py", line 1535, in emscripten
+    assert os.path.exists(filename + '.o.js'), 'Emscripten failed to generate .js'
+AssertionError: Emscripten failed to generate .js
+make[1]: *** [cmTC_be1fe.js] Error 1
+make: *** [cmTC_be1fe/fast] Error 2
+
+
+Determining if the function _ltoa exists failed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1bd55/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1bd55.dir/build.make CMakeFiles/cmTC_1bd55.dir/build
+Building C object CMakeFiles/cmTC_1bd55.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=_ltoa -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_1bd55.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1bd55.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bd55.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=_ltoa -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_1bd55.dir/objects1.rsp  -o cmTC_1bd55.js  
+error: unresolved symbol: _ltoa
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1043, in <module>
+    _main(environ=os.environ)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1033, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/tempfiles.py", line 39, in run_and_clean
+    return func()
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1039, in <lambda>
+    DEBUG_CACHE=DEBUG_CACHE,
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 940, in main
+    temp_files=temp_files, DEBUG=DEBUG, DEBUG_CACHE=DEBUG_CACHE)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 195, in emscript
+    cwd=path_from_root('src'), error_limit=300)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/jsrun.py", line 75, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/usr/local/bin/node', '/usr/local/Cellar/emscripten/1.33.0/libexec/src/compiler.js', '/tmp/tmpRWHUl5.txt'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it, and do the work to get that through
+// closure compiler if necessary. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..gener
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emcc", line 1270, in <module>
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/shared.py", line 1535, in emscripten
+    assert os.path.exists(filename + '.o.js'), 'Emscripten failed to generate .js'
+AssertionError: Emscripten failed to generate .js
+make[1]: *** [cmTC_1bd55.js] Error 1
+make: *** [cmTC_1bd55/fast] Error 2
+
+
+Determining if the function _uitoa exists failed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_98318/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_98318.dir/build.make CMakeFiles/cmTC_98318.dir/build
+Building C object CMakeFiles/cmTC_98318.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=_uitoa -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_98318.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_98318.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98318.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=_uitoa -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_98318.dir/objects1.rsp  -o cmTC_98318.js  
+error: unresolved symbol: _uitoa
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1043, in <module>
+    _main(environ=os.environ)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1033, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/tempfiles.py", line 39, in run_and_clean
+    return func()
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1039, in <lambda>
+    DEBUG_CACHE=DEBUG_CACHE,
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 940, in main
+    temp_files=temp_files, DEBUG=DEBUG, DEBUG_CACHE=DEBUG_CACHE)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 195, in emscript
+    cwd=path_from_root('src'), error_limit=300)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/jsrun.py", line 75, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/usr/local/bin/node', '/usr/local/Cellar/emscripten/1.33.0/libexec/src/compiler.js', '/tmp/tmpWyh5RH.txt'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it, and do the work to get that through
+// closure compiler if necessary. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..gener
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emcc", line 1270, in <module>
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/shared.py", line 1535, in emscripten
+    assert os.path.exists(filename + '.o.js'), 'Emscripten failed to generate .js'
+AssertionError: Emscripten failed to generate .js
+make[1]: *** [cmTC_98318.js] Error 1
+make: *** [cmTC_98318/fast] Error 2
+
+
+Determining if the function _ultoa exists failed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4d5dd/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4d5dd.dir/build.make CMakeFiles/cmTC_4d5dd.dir/build
+Building C object CMakeFiles/cmTC_4d5dd.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=_ultoa -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_4d5dd.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4d5dd.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d5dd.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=_ultoa -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_4d5dd.dir/objects1.rsp  -o cmTC_4d5dd.js  
+error: unresolved symbol: _ultoa
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1043, in <module>
+    _main(environ=os.environ)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1033, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/tempfiles.py", line 39, in run_and_clean
+    return func()
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1039, in <lambda>
+    DEBUG_CACHE=DEBUG_CACHE,
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 940, in main
+    temp_files=temp_files, DEBUG=DEBUG, DEBUG_CACHE=DEBUG_CACHE)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 195, in emscript
+    cwd=path_from_root('src'), error_limit=300)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/jsrun.py", line 75, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/usr/local/bin/node', '/usr/local/Cellar/emscripten/1.33.0/libexec/src/compiler.js', '/tmp/tmp62tpm8.txt'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it, and do the work to get that through
+// closure compiler if necessary. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..gener
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emcc", line 1270, in <module>
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/shared.py", line 1535, in emscripten
+    assert os.path.exists(filename + '.o.js'), 'Emscripten failed to generate .js'
+AssertionError: Emscripten failed to generate .js
+make[1]: *** [cmTC_4d5dd.js] Error 1
+make: *** [cmTC_4d5dd/fast] Error 2
+
+
+Determining if the function _i64toa exists failed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c52c8/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c52c8.dir/build.make CMakeFiles/cmTC_c52c8.dir/build
+Building C object CMakeFiles/cmTC_c52c8.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=_i64toa -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_c52c8.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c52c8.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c52c8.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=_i64toa -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_c52c8.dir/objects1.rsp  -o cmTC_c52c8.js  
+error: unresolved symbol: _i64toa
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1043, in <module>
+    _main(environ=os.environ)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1033, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/tempfiles.py", line 39, in run_and_clean
+    return func()
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1039, in <lambda>
+    DEBUG_CACHE=DEBUG_CACHE,
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 940, in main
+    temp_files=temp_files, DEBUG=DEBUG, DEBUG_CACHE=DEBUG_CACHE)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 195, in emscript
+    cwd=path_from_root('src'), error_limit=300)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/jsrun.py", line 75, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/usr/local/bin/node', '/usr/local/Cellar/emscripten/1.33.0/libexec/src/compiler.js', '/tmp/tmppKoWE9.txt'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it, and do the work to get that through
+// closure compiler if necessary. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..gener
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emcc", line 1270, in <module>
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/shared.py", line 1535, in emscripten
+    assert os.path.exists(filename + '.o.js'), 'Emscripten failed to generate .js'
+AssertionError: Emscripten failed to generate .js
+make[1]: *** [cmTC_c52c8.js] Error 1
+make: *** [cmTC_c52c8/fast] Error 2
+
+
+Determining if the function _ui64toa exists failed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_942c8/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_942c8.dir/build.make CMakeFiles/cmTC_942c8.dir/build
+Building C object CMakeFiles/cmTC_942c8.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=_ui64toa -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_942c8.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_942c8.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_942c8.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=_ui64toa -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_942c8.dir/objects1.rsp  -o cmTC_942c8.js  
+error: unresolved symbol: _ui64toa
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1043, in <module>
+    _main(environ=os.environ)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1033, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/tempfiles.py", line 39, in run_and_clean
+    return func()
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1039, in <lambda>
+    DEBUG_CACHE=DEBUG_CACHE,
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 940, in main
+    temp_files=temp_files, DEBUG=DEBUG, DEBUG_CACHE=DEBUG_CACHE)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 195, in emscript
+    cwd=path_from_root('src'), error_limit=300)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/jsrun.py", line 75, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/usr/local/bin/node', '/usr/local/Cellar/emscripten/1.33.0/libexec/src/compiler.js', '/tmp/tmpo63w2n.txt'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it, and do the work to get that through
+// closure compiler if necessary. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..gener
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emcc", line 1270, in <module>
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/shared.py", line 1535, in emscripten
+    assert os.path.exists(filename + '.o.js'), 'Emscripten failed to generate .js'
+AssertionError: Emscripten failed to generate .js
+make[1]: *** [cmTC_942c8.js] Error 1
+make: *** [cmTC_942c8/fast] Error 2
+
+
+Determining if the function _stricmp exists failed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_480f4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_480f4.dir/build.make CMakeFiles/cmTC_480f4.dir/build
+Building C object CMakeFiles/cmTC_480f4.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=_stricmp -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_480f4.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_480f4.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_480f4.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=_stricmp -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_480f4.dir/objects1.rsp  -o cmTC_480f4.js  
+error: unresolved symbol: _stricmp
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1043, in <module>
+    _main(environ=os.environ)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1033, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/tempfiles.py", line 39, in run_and_clean
+    return func()
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1039, in <lambda>
+    DEBUG_CACHE=DEBUG_CACHE,
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 940, in main
+    temp_files=temp_files, DEBUG=DEBUG, DEBUG_CACHE=DEBUG_CACHE)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 195, in emscript
+    cwd=path_from_root('src'), error_limit=300)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/jsrun.py", line 75, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/usr/local/bin/node', '/usr/local/Cellar/emscripten/1.33.0/libexec/src/compiler.js', '/tmp/tmpDZOWfX.txt'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it, and do the work to get that through
+// closure compiler if necessary. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..gener
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emcc", line 1270, in <module>
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/shared.py", line 1535, in emscripten
+    assert os.path.exists(filename + '.o.js'), 'Emscripten failed to generate .js'
+AssertionError: Emscripten failed to generate .js
+make[1]: *** [cmTC_480f4.js] Error 1
+make: *** [cmTC_480f4/fast] Error 2
+
+
+Determining if the function _strnicmp exists failed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3ce65/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3ce65.dir/build.make CMakeFiles/cmTC_3ce65.dir/build
+Building C object CMakeFiles/cmTC_3ce65.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=_strnicmp -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_3ce65.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3ce65.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ce65.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=_strnicmp -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_3ce65.dir/objects1.rsp  -o cmTC_3ce65.js  
+error: unresolved symbol: _strnicmp
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1043, in <module>
+    _main(environ=os.environ)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1033, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/tempfiles.py", line 39, in run_and_clean
+    return func()
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1039, in <lambda>
+    DEBUG_CACHE=DEBUG_CACHE,
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 940, in main
+    temp_files=temp_files, DEBUG=DEBUG, DEBUG_CACHE=DEBUG_CACHE)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 195, in emscript
+    cwd=path_from_root('src'), error_limit=300)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/jsrun.py", line 75, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/usr/local/bin/node', '/usr/local/Cellar/emscripten/1.33.0/libexec/src/compiler.js', '/tmp/tmpB9njkh.txt'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it, and do the work to get that through
+// closure compiler if necessary. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..gener
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emcc", line 1270, in <module>
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/shared.py", line 1535, in emscripten
+    assert os.path.exists(filename + '.o.js'), 'Emscripten failed to generate .js'
+AssertionError: Emscripten failed to generate .js
+make[1]: *** [cmTC_3ce65.js] Error 1
+make: *** [cmTC_3ce65/fast] Error 2
+
+
+Determining if the function fseeko64 exists failed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0437c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0437c.dir/build.make CMakeFiles/cmTC_0437c.dir/build
+Building C object CMakeFiles/cmTC_0437c.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=fseeko64 -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_0437c.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0437c.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0437c.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=fseeko64 -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_0437c.dir/objects1.rsp  -o cmTC_0437c.js  
+error: unresolved symbol: fseeko64
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1043, in <module>
+    _main(environ=os.environ)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1033, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/tempfiles.py", line 39, in run_and_clean
+    return func()
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1039, in <lambda>
+    DEBUG_CACHE=DEBUG_CACHE,
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 940, in main
+    temp_files=temp_files, DEBUG=DEBUG, DEBUG_CACHE=DEBUG_CACHE)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 195, in emscript
+    cwd=path_from_root('src'), error_limit=300)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/jsrun.py", line 75, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/usr/local/bin/node', '/usr/local/Cellar/emscripten/1.33.0/libexec/src/compiler.js', '/tmp/tmprLu623.txt'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it, and do the work to get that through
+// closure compiler if necessary. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..gener
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emcc", line 1270, in <module>
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/shared.py", line 1535, in emscripten
+    assert os.path.exists(filename + '.o.js'), 'Emscripten failed to generate .js'
+AssertionError: Emscripten failed to generate .js
+make[1]: *** [cmTC_0437c.js] Error 1
+make: *** [cmTC_0437c/fast] Error 2
+
+
+Determining if the function setjmp exists failed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed54d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ed54d.dir/build.make CMakeFiles/cmTC_ed54d.dir/build
+Building C object CMakeFiles/cmTC_ed54d.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=setjmp -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_ed54d.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: declaration of built-in function 'setjmp' requires inclusion of the header <setjmp.h> [-Wbuiltin-requires-header]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS setjmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_ed54d.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed54d.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=setjmp -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_ed54d.dir/objects1.rsp  -o cmTC_ed54d.js  
+i8 ()* bitcast (i8 (...)* @setjmp to i8 ()*)
+LLVM ERROR: bad use of setjmp, should only call it
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emcc", line 1240, in <module>
+    shared.Building.llvm_opt(final, link_opts)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/shared.py", line 1429, in llvm_opt
+    assert os.path.exists(target), 'Failed to run llvm optimizations: ' + output
+AssertionError: Failed to run llvm optimizations: 
+make[1]: *** [cmTC_ed54d.js] Error 1
+make: *** [cmTC_ed54d/fast] Error 2
+
+
+Determining if the function sysctlbyname exists failed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cef6e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cef6e.dir/build.make CMakeFiles/cmTC_cef6e.dir/build
+Building C object CMakeFiles/cmTC_cef6e.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=sysctlbyname -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_cef6e.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cef6e.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cef6e.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=sysctlbyname -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_cef6e.dir/objects1.rsp  -o cmTC_cef6e.js  
+error: unresolved symbol: sysctlbyname
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1043, in <module>
+    _main(environ=os.environ)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1033, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/tempfiles.py", line 39, in run_and_clean
+    return func()
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1039, in <lambda>
+    DEBUG_CACHE=DEBUG_CACHE,
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 940, in main
+    temp_files=temp_files, DEBUG=DEBUG, DEBUG_CACHE=DEBUG_CACHE)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 195, in emscript
+    cwd=path_from_root('src'), error_limit=300)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/jsrun.py", line 75, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/usr/local/bin/node', '/usr/local/Cellar/emscripten/1.33.0/libexec/src/compiler.js', '/tmp/tmpoxGklP.txt'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it, and do the work to get that through
+// closure compiler if necessary. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..gener
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emcc", line 1270, in <module>
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/shared.py", line 1535, in emscripten
+    assert os.path.exists(filename + '.o.js'), 'Emscripten failed to generate .js'
+AssertionError: Emscripten failed to generate .js
+make[1]: *** [cmTC_cef6e.js] Error 1
+make: *** [cmTC_cef6e/fast] Error 2
+
+
+Determining if the function alloca exists failed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6f62b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6f62b.dir/build.make CMakeFiles/cmTC_6f62b.dir/build
+Building C object CMakeFiles/cmTC_6f62b.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=alloca -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_6f62b.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'alloca' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS alloca
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'alloca' is a builtin with type 'void *(unsigned int)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS alloca
+                              ^
+1 warning generated.
+Linking C executable cmTC_6f62b.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f62b.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=alloca -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_6f62b.dir/objects1.rsp  -o cmTC_6f62b.js  
+error: unresolved symbol: alloca
+Aborting compilation due to previous errors | undefined
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1043, in <module>
+    _main(environ=os.environ)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1033, in _main
+    temp_files.run_and_clean(lambda: main(
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/tempfiles.py", line 39, in run_and_clean
+    return func()
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 1039, in <lambda>
+    DEBUG_CACHE=DEBUG_CACHE,
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 940, in main
+    temp_files=temp_files, DEBUG=DEBUG, DEBUG_CACHE=DEBUG_CACHE)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emscripten.py", line 195, in emscript
+    cwd=path_from_root('src'), error_limit=300)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/jsrun.py", line 75, in run_js
+    raise Exception('Expected the command ' + str(command) + ' to finish with return code ' + str(assert_returncode) + ', but it returned with code ' + str(proc.returncode) + ' instead! Output: ' + str(ret)[:error_limit])
+Exception: Expected the command ['/usr/local/bin/node', '/usr/local/Cellar/emscripten/1.33.0/libexec/src/compiler.js', '/tmp/tmp4EcFW4.txt'] to finish with return code 0, but it returned with code 1 instead! Output: // The Module object: Our interface to the outside world. We import
+// and export values on it, and do the work to get that through
+// closure compiler if necessary. There are various ways Module can be used:
+// 1. Not defined. We create it here
+// 2. A function parameter, function(Module) { ..gener
+Traceback (most recent call last):
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/emcc", line 1270, in <module>
+    final = shared.Building.emscripten(final, append_ext=False, extra_args=extra_args)
+  File "/usr/local/Cellar/emscripten/1.33.0/libexec/tools/shared.py", line 1535, in emscripten
+    assert os.path.exists(filename + '.o.js'), 'Emscripten failed to generate .js'
+AssertionError: Emscripten failed to generate .js
+make[1]: *** [cmTC_6f62b.js] Error 1
+make: *** [cmTC_6f62b/fast] Error 2
+
+

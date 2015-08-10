@@ -1,0 +1,1508 @@
+The target system is: Emscripten - 1 - 
+The host system is: Darwin - 13.4.0 - x86_64
+Performing C SOURCE FILE Test HAVE_GCC_FVISIBILITY succeded with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_917de/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_917de.dir/build.make CMakeFiles/cmTC_917de.dir/build
+Building C object CMakeFiles/cmTC_917de.dir/src.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DHAVE_GCC_FVISIBILITY -fvisibility=hidden -Werror   -o CMakeFiles/cmTC_917de.dir/src.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_917de.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_917de.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DHAVE_GCC_FVISIBILITY -fvisibility=hidden -Werror    @CMakeFiles/cmTC_917de.dir/objects1.rsp  -o cmTC_917de.js  
+
+Source file was:
+
+      #if !defined(__GNUC__) || __GNUC__ < 4
+      #error SDL only uses visibility attributes in GCC 4 or newer
+      #endif
+      int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_GCC_WALL succeded with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea1f0/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ea1f0.dir/build.make CMakeFiles/cmTC_ea1f0.dir/build
+Building C object CMakeFiles/cmTC_ea1f0.dir/src.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DHAVE_GCC_WALL -s ERROR_ON_UNDEFINED_SYMBOLS=1   -Wall -o CMakeFiles/cmTC_ea1f0.dir/src.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ea1f0.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea1f0.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DHAVE_GCC_WALL -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_ea1f0.dir/objects1.rsp  -o cmTC_ea1f0.js  
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WSHADOW succeded with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a987/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2a987.dir/build.make CMakeFiles/cmTC_2a987.dir/build
+Building C object CMakeFiles/cmTC_2a987.dir/src.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DHAVE_GCC_WSHADOW -s ERROR_ON_UNDEFINED_SYMBOLS=1   -Wshadow -o CMakeFiles/cmTC_2a987.dir/src.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2a987.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a987.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DHAVE_GCC_WSHADOW -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_2a987.dir/objects1.rsp  -o cmTC_2a987.js  
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_NO_UNDEFINED succeded with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_440e3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_440e3.dir/build.make CMakeFiles/cmTC_440e3.dir/build
+Building C object CMakeFiles/cmTC_440e3.dir/src.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DHAVE_NO_UNDEFINED -Wl,--no-undefined   -o CMakeFiles/cmTC_440e3.dir/src.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_440e3.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_440e3.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DHAVE_NO_UNDEFINED -Wl,--no-undefined    @CMakeFiles/cmTC_440e3.dir/objects1.rsp  -o cmTC_440e3.js  
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cdbff/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cdbff.dir/build.make CMakeFiles/cmTC_cdbff.dir/build
+Building C object CMakeFiles/cmTC_cdbff.dir/CheckIncludeFile.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_cdbff.dir/CheckIncludeFile.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cdbff.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdbff.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_cdbff.dir/objects1.rsp  -o cmTC_cdbff.js  
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fdee8/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fdee8.dir/build.make CMakeFiles/cmTC_fdee8.dir/build
+Building C object CMakeFiles/cmTC_fdee8.dir/CheckIncludeFile.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_fdee8.dir/CheckIncludeFile.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fdee8.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdee8.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_fdee8.dir/objects1.rsp  -o cmTC_fdee8.js  
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71781/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_71781.dir/build.make CMakeFiles/cmTC_71781.dir/build
+Building C object CMakeFiles/cmTC_71781.dir/CheckIncludeFile.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_71781.dir/CheckIncludeFile.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_71781.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71781.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_71781.dir/objects1.rsp  -o cmTC_71781.js  
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fa767/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fa767.dir/build.make CMakeFiles/cmTC_fa767.dir/build
+Building C object CMakeFiles/cmTC_fa767.dir/CheckIncludeFile.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_fa767.dir/CheckIncludeFile.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fa767.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa767.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_fa767.dir/objects1.rsp  -o cmTC_fa767.js  
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_de38a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_de38a.dir/build.make CMakeFiles/cmTC_de38a.dir/build
+Building C object CMakeFiles/cmTC_de38a.dir/CheckIncludeFile.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_de38a.dir/CheckIncludeFile.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_de38a.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de38a.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_de38a.dir/objects1.rsp  -o cmTC_de38a.js  
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cb9b9/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cb9b9.dir/build.make CMakeFiles/cmTC_cb9b9.dir/build
+Building C object CMakeFiles/cmTC_cb9b9.dir/CheckIncludeFile.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_cb9b9.dir/CheckIncludeFile.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cb9b9.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb9b9.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_cb9b9.dir/objects1.rsp  -o cmTC_cb9b9.js  
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20ec4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_20ec4.dir/build.make CMakeFiles/cmTC_20ec4.dir/build
+Building C object CMakeFiles/cmTC_20ec4.dir/CheckIncludeFile.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_20ec4.dir/CheckIncludeFile.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_20ec4.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20ec4.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_20ec4.dir/objects1.rsp  -o cmTC_20ec4.js  
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_276a0/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_276a0.dir/build.make CMakeFiles/cmTC_276a0.dir/build
+Building C object CMakeFiles/cmTC_276a0.dir/CheckIncludeFile.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_276a0.dir/CheckIncludeFile.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_276a0.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_276a0.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_276a0.dir/objects1.rsp  -o cmTC_276a0.js  
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7ca54/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7ca54.dir/build.make CMakeFiles/cmTC_7ca54.dir/build
+Building C object CMakeFiles/cmTC_7ca54.dir/CheckIncludeFile.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_7ca54.dir/CheckIncludeFile.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7ca54.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ca54.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_7ca54.dir/objects1.rsp  -o cmTC_7ca54.js  
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3b405/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3b405.dir/build.make CMakeFiles/cmTC_3b405.dir/build
+Building C object CMakeFiles/cmTC_3b405.dir/CheckIncludeFile.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_3b405.dir/CheckIncludeFile.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3b405.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b405.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_3b405.dir/objects1.rsp  -o cmTC_3b405.js  
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_81955/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_81955.dir/build.make CMakeFiles/cmTC_81955.dir/build
+Building C object CMakeFiles/cmTC_81955.dir/CheckIncludeFile.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_81955.dir/CheckIncludeFile.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_81955.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81955.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_81955.dir/objects1.rsp  -o cmTC_81955.js  
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51993/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_51993.dir/build.make CMakeFiles/cmTC_51993.dir/build
+Building C object CMakeFiles/cmTC_51993.dir/CheckIncludeFile.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_51993.dir/CheckIncludeFile.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_51993.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51993.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_51993.dir/objects1.rsp  -o cmTC_51993.js  
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4b46a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4b46a.dir/build.make CMakeFiles/cmTC_4b46a.dir/build
+Building C object CMakeFiles/cmTC_4b46a.dir/CheckIncludeFile.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_4b46a.dir/CheckIncludeFile.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4b46a.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b46a.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_4b46a.dir/objects1.rsp  -o cmTC_4b46a.js  
+
+
+Determining if the include file iconv.h exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4bced/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4bced.dir/build.make CMakeFiles/cmTC_4bced.dir/build
+Building C object CMakeFiles/cmTC_4bced.dir/CheckIncludeFile.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_4bced.dir/CheckIncludeFile.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4bced.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bced.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_4bced.dir/objects1.rsp  -o cmTC_4bced.js  
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1e83/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f1e83.dir/build.make CMakeFiles/cmTC_f1e83.dir/build
+Building C object CMakeFiles/cmTC_f1e83.dir/CheckIncludeFile.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_f1e83.dir/CheckIncludeFile.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f1e83.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1e83.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_f1e83.dir/objects1.rsp  -o cmTC_f1e83.js  
+
+
+Determining if files dlfcn.h;stdint.h;stddef.h;inttypes.h;stdlib.h;strings.h;string.h;float.h exist passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d543f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d543f.dir/build.make CMakeFiles/cmTC_d543f.dir/build
+Building C object CMakeFiles/cmTC_d543f.dir/CheckIncludeFiles.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_d543f.dir/CheckIncludeFiles.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_d543f.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d543f.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_d543f.dir/objects1.rsp  -o cmTC_d543f.js  
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fdedf/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fdedf.dir/build.make CMakeFiles/cmTC_fdedf.dir/build
+Building C object CMakeFiles/cmTC_fdedf.dir/SIZEOF_SIZE_T.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_fdedf.dir/SIZEOF_SIZE_T.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_fdedf.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdedf.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_fdedf.dir/objects1.rsp  -o cmTC_fdedf.js  
+
+
+Determining if the M_PI exist passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3626e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3626e.dir/build.make CMakeFiles/cmTC_3626e.dir/build
+Building C object CMakeFiles/cmTC_3626e.dir/CheckSymbolExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_3626e.dir/CheckSymbolExists.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3626e.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3626e.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_3626e.dir/objects1.rsp  -o cmTC_3626e.js  
+
+File /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef M_PI
+  return ((int*)(&M_PI))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_MPROTECT succeded with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bd88a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bd88a.dir/build.make CMakeFiles/cmTC_bd88a.dir/build
+Building C object CMakeFiles/cmTC_bd88a.dir/src.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DHAVE_MPROTECT -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_bd88a.dir/src.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bd88a.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd88a.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DHAVE_MPROTECT -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_bd88a.dir/objects1.rsp  -o cmTC_bd88a.js  
+
+Source file was:
+#include <sys/types.h>
+                             #include <sys/mman.h>
+                             int main() { }
+Determining if the function strtod exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ebdf4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ebdf4.dir/build.make CMakeFiles/cmTC_ebdf4.dir/build
+Building C object CMakeFiles/cmTC_ebdf4.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=strtod -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_ebdf4.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ebdf4.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebdf4.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=strtod -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_ebdf4.dir/objects1.rsp  -o cmTC_ebdf4.js  
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_646f3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_646f3.dir/build.make CMakeFiles/cmTC_646f3.dir/build
+Building C object CMakeFiles/cmTC_646f3.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=malloc -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_646f3.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'malloc' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS malloc
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'malloc' is a builtin with type 'void *(unsigned int)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS malloc
+                              ^
+1 warning generated.
+Linking C executable cmTC_646f3.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_646f3.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=malloc -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_646f3.dir/objects1.rsp  -o cmTC_646f3.js  
+
+
+Determining if the function calloc exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89b47/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_89b47.dir/build.make CMakeFiles/cmTC_89b47.dir/build
+Building C object CMakeFiles/cmTC_89b47.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=calloc -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_89b47.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'calloc' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS calloc
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'calloc' is a builtin with type 'void *(unsigned int, unsigned int)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS calloc
+                              ^
+1 warning generated.
+Linking C executable cmTC_89b47.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89b47.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=calloc -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_89b47.dir/objects1.rsp  -o cmTC_89b47.js  
+
+
+Determining if the function realloc exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b48cf/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b48cf.dir/build.make CMakeFiles/cmTC_b48cf.dir/build
+Building C object CMakeFiles/cmTC_b48cf.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=realloc -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_b48cf.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'realloc' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS realloc
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'realloc' is a builtin with type 'void *(void *, unsigned int)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS realloc
+                              ^
+1 warning generated.
+Linking C executable cmTC_b48cf.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b48cf.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=realloc -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_b48cf.dir/objects1.rsp  -o cmTC_b48cf.js  
+
+
+Determining if the function free exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82697/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_82697.dir/build.make CMakeFiles/cmTC_82697.dir/build
+Building C object CMakeFiles/cmTC_82697.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=free -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_82697.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_82697.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82697.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=free -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_82697.dir/objects1.rsp  -o cmTC_82697.js  
+
+
+Determining if the function getenv exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4de7f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4de7f.dir/build.make CMakeFiles/cmTC_4de7f.dir/build
+Building C object CMakeFiles/cmTC_4de7f.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=getenv -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_4de7f.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4de7f.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4de7f.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=getenv -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_4de7f.dir/objects1.rsp  -o cmTC_4de7f.js  
+
+
+Determining if the function setenv exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5a39f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5a39f.dir/build.make CMakeFiles/cmTC_5a39f.dir/build
+Building C object CMakeFiles/cmTC_5a39f.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=setenv -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_5a39f.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5a39f.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a39f.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=setenv -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_5a39f.dir/objects1.rsp  -o cmTC_5a39f.js  
+
+
+Determining if the function putenv exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_33a83/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_33a83.dir/build.make CMakeFiles/cmTC_33a83.dir/build
+Building C object CMakeFiles/cmTC_33a83.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=putenv -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_33a83.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_33a83.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33a83.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=putenv -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_33a83.dir/objects1.rsp  -o cmTC_33a83.js  
+
+
+Determining if the function unsetenv exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_458d9/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_458d9.dir/build.make CMakeFiles/cmTC_458d9.dir/build
+Building C object CMakeFiles/cmTC_458d9.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=unsetenv -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_458d9.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_458d9.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_458d9.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=unsetenv -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_458d9.dir/objects1.rsp  -o cmTC_458d9.js  
+
+
+Determining if the function qsort exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6275a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6275a.dir/build.make CMakeFiles/cmTC_6275a.dir/build
+Building C object CMakeFiles/cmTC_6275a.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=qsort -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_6275a.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6275a.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6275a.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=qsort -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_6275a.dir/objects1.rsp  -o cmTC_6275a.js  
+
+
+Determining if the function abs exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6fe62/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6fe62.dir/build.make CMakeFiles/cmTC_6fe62.dir/build
+Building C object CMakeFiles/cmTC_6fe62.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=abs -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_6fe62.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'abs' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS abs
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'abs' is a builtin with type 'int (int)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS abs
+                              ^
+1 warning generated.
+Linking C executable cmTC_6fe62.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fe62.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=abs -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_6fe62.dir/objects1.rsp  -o cmTC_6fe62.js  
+
+
+Determining if the function bcopy exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1862f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1862f.dir/build.make CMakeFiles/cmTC_1862f.dir/build
+Building C object CMakeFiles/cmTC_1862f.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=bcopy -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_1862f.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1862f.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1862f.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=bcopy -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_1862f.dir/objects1.rsp  -o cmTC_1862f.js  
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1f33c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1f33c.dir/build.make CMakeFiles/cmTC_1f33c.dir/build
+Building C object CMakeFiles/cmTC_1f33c.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=memset -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_1f33c.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'memset' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'memset' is a builtin with type 'void *(void *, int, unsigned int)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+1 warning generated.
+Linking C executable cmTC_1f33c.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f33c.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=memset -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_1f33c.dir/objects1.rsp  -o cmTC_1f33c.js  
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3f116/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3f116.dir/build.make CMakeFiles/cmTC_3f116.dir/build
+Building C object CMakeFiles/cmTC_3f116.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=memcpy -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_3f116.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'memcpy' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcpy
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'memcpy' is a builtin with type 'void *(void *, const void *, unsigned int)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcpy
+                              ^
+1 warning generated.
+Linking C executable cmTC_3f116.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f116.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=memcpy -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_3f116.dir/objects1.rsp  -o cmTC_3f116.js  
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8cdc/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c8cdc.dir/build.make CMakeFiles/cmTC_c8cdc.dir/build
+Building C object CMakeFiles/cmTC_c8cdc.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=memmove -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_c8cdc.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'memmove' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memmove
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'memmove' is a builtin with type 'void *(void *, const void *, unsigned int)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memmove
+                              ^
+1 warning generated.
+Linking C executable cmTC_c8cdc.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8cdc.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=memmove -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_c8cdc.dir/objects1.rsp  -o cmTC_c8cdc.js  
+
+
+Determining if the function memcmp exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4f00c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4f00c.dir/build.make CMakeFiles/cmTC_4f00c.dir/build
+Building C object CMakeFiles/cmTC_4f00c.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=memcmp -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_4f00c.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'memcmp' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcmp
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'memcmp' is a builtin with type 'int (const void *, const void *, unsigned int)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_4f00c.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f00c.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=memcmp -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_4f00c.dir/objects1.rsp  -o cmTC_4f00c.js  
+
+
+Determining if the function strlen exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae286/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ae286.dir/build.make CMakeFiles/cmTC_ae286.dir/build
+Building C object CMakeFiles/cmTC_ae286.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=strlen -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_ae286.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strlen' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlen
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'strlen' is a builtin with type 'unsigned int (const char *)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlen
+                              ^
+1 warning generated.
+Linking C executable cmTC_ae286.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae286.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=strlen -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_ae286.dir/objects1.rsp  -o cmTC_ae286.js  
+
+
+Determining if the function strlcpy exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_47a3d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_47a3d.dir/build.make CMakeFiles/cmTC_47a3d.dir/build
+Building C object CMakeFiles/cmTC_47a3d.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=strlcpy -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_47a3d.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strlcpy' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcpy
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'strlcpy' is a builtin with type 'unsigned int (char *, const char *, unsigned int)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcpy
+                              ^
+1 warning generated.
+Linking C executable cmTC_47a3d.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47a3d.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=strlcpy -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_47a3d.dir/objects1.rsp  -o cmTC_47a3d.js  
+
+
+Determining if the function strlcat exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb9dc/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fb9dc.dir/build.make CMakeFiles/cmTC_fb9dc.dir/build
+Building C object CMakeFiles/cmTC_fb9dc.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=strlcat -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_fb9dc.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strlcat' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcat
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'strlcat' is a builtin with type 'unsigned int (char *, const char *, unsigned int)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcat
+                              ^
+1 warning generated.
+Linking C executable cmTC_fb9dc.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb9dc.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=strlcat -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_fb9dc.dir/objects1.rsp  -o cmTC_fb9dc.js  
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_55ea7/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_55ea7.dir/build.make CMakeFiles/cmTC_55ea7.dir/build
+Building C object CMakeFiles/cmTC_55ea7.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=strdup -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_55ea7.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strdup' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strdup
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'strdup' is a builtin with type 'char *(const char *)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strdup
+                              ^
+1 warning generated.
+Linking C executable cmTC_55ea7.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55ea7.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=strdup -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_55ea7.dir/objects1.rsp  -o cmTC_55ea7.js  
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bde13/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bde13.dir/build.make CMakeFiles/cmTC_bde13.dir/build
+Building C object CMakeFiles/cmTC_bde13.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=strchr -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_bde13.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strchr' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strchr
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'strchr' is a builtin with type 'char *(const char *, int)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strchr
+                              ^
+1 warning generated.
+Linking C executable cmTC_bde13.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bde13.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=strchr -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_bde13.dir/objects1.rsp  -o cmTC_bde13.js  
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d8d0d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d8d0d.dir/build.make CMakeFiles/cmTC_d8d0d.dir/build
+Building C object CMakeFiles/cmTC_d8d0d.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=strrchr -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_d8d0d.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strrchr' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strrchr
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'strrchr' is a builtin with type 'char *(const char *, int)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strrchr
+                              ^
+1 warning generated.
+Linking C executable cmTC_d8d0d.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8d0d.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=strrchr -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_d8d0d.dir/objects1.rsp  -o cmTC_d8d0d.js  
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5358f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5358f.dir/build.make CMakeFiles/cmTC_5358f.dir/build
+Building C object CMakeFiles/cmTC_5358f.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=strstr -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_5358f.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strstr' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strstr
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'strstr' is a builtin with type 'char *(const char *, const char *)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strstr
+                              ^
+1 warning generated.
+Linking C executable cmTC_5358f.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5358f.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=strstr -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_5358f.dir/objects1.rsp  -o cmTC_5358f.js  
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d7819/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d7819.dir/build.make CMakeFiles/cmTC_d7819.dir/build
+Building C object CMakeFiles/cmTC_d7819.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=strtol -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_d7819.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d7819.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7819.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=strtol -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_d7819.dir/objects1.rsp  -o cmTC_d7819.js  
+
+
+Determining if the function strtoul exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8616b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8616b.dir/build.make CMakeFiles/cmTC_8616b.dir/build
+Building C object CMakeFiles/cmTC_8616b.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=strtoul -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_8616b.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8616b.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8616b.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=strtoul -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_8616b.dir/objects1.rsp  -o cmTC_8616b.js  
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_142e4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_142e4.dir/build.make CMakeFiles/cmTC_142e4.dir/build
+Building C object CMakeFiles/cmTC_142e4.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=strtoll -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_142e4.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_142e4.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_142e4.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=strtoll -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_142e4.dir/objects1.rsp  -o cmTC_142e4.js  
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e14ab/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e14ab.dir/build.make CMakeFiles/cmTC_e14ab.dir/build
+Building C object CMakeFiles/cmTC_e14ab.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=strtoull -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_e14ab.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e14ab.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e14ab.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=strtoull -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_e14ab.dir/objects1.rsp  -o cmTC_e14ab.js  
+
+
+Determining if the function atoi exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f5074/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f5074.dir/build.make CMakeFiles/cmTC_f5074.dir/build
+Building C object CMakeFiles/cmTC_f5074.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=atoi -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_f5074.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f5074.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5074.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=atoi -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_f5074.dir/objects1.rsp  -o cmTC_f5074.js  
+
+
+Determining if the function atof exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_67229/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_67229.dir/build.make CMakeFiles/cmTC_67229.dir/build
+Building C object CMakeFiles/cmTC_67229.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=atof -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_67229.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_67229.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67229.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=atof -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_67229.dir/objects1.rsp  -o cmTC_67229.js  
+
+
+Determining if the function strcmp exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_698f2/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_698f2.dir/build.make CMakeFiles/cmTC_698f2.dir/build
+Building C object CMakeFiles/cmTC_698f2.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=strcmp -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_698f2.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strcmp' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcmp
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'strcmp' is a builtin with type 'int (const char *, const char *)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_698f2.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_698f2.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=strcmp -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_698f2.dir/objects1.rsp  -o cmTC_698f2.js  
+
+
+Determining if the function strncmp exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0be42/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0be42.dir/build.make CMakeFiles/cmTC_0be42.dir/build
+Building C object CMakeFiles/cmTC_0be42.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=strncmp -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_0be42.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strncmp' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncmp
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'strncmp' is a builtin with type 'int (const char *, const char *, unsigned int)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_0be42.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0be42.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=strncmp -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_0be42.dir/objects1.rsp  -o cmTC_0be42.js  
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_24419/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_24419.dir/build.make CMakeFiles/cmTC_24419.dir/build
+Building C object CMakeFiles/cmTC_24419.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=strcasecmp -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_24419.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strcasecmp' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'strcasecmp' is a builtin with type 'int (const char *, const char *)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_24419.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24419.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=strcasecmp -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_24419.dir/objects1.rsp  -o cmTC_24419.js  
+
+
+Determining if the function strncasecmp exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8c98f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8c98f.dir/build.make CMakeFiles/cmTC_8c98f.dir/build
+Building C object CMakeFiles/cmTC_8c98f.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=strncasecmp -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_8c98f.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strncasecmp' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncasecmp
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'strncasecmp' is a builtin with type 'int (const char *, const char *, unsigned int)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncasecmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_8c98f.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c98f.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=strncasecmp -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_8c98f.dir/objects1.rsp  -o cmTC_8c98f.js  
+
+
+Determining if the function vsscanf exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7a0ea/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7a0ea.dir/build.make CMakeFiles/cmTC_7a0ea.dir/build
+Building C object CMakeFiles/cmTC_7a0ea.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=vsscanf -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_7a0ea.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'vsscanf' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsscanf
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'vsscanf' is a builtin with type 'int (const char *restrict, const char *restrict, int *)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsscanf
+                              ^
+1 warning generated.
+Linking C executable cmTC_7a0ea.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a0ea.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=vsscanf -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_7a0ea.dir/objects1.rsp  -o cmTC_7a0ea.js  
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49158/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_49158.dir/build.make CMakeFiles/cmTC_49158.dir/build
+Building C object CMakeFiles/cmTC_49158.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=vsnprintf -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_49158.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'vsnprintf' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsnprintf
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'vsnprintf' is a builtin with type 'int (char *, unsigned int, const char *, int *)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsnprintf
+                              ^
+1 warning generated.
+Linking C executable cmTC_49158.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49158.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=vsnprintf -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_49158.dir/objects1.rsp  -o cmTC_49158.js  
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_74c1a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_74c1a.dir/build.make CMakeFiles/cmTC_74c1a.dir/build
+Building C object CMakeFiles/cmTC_74c1a.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=fseeko -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_74c1a.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_74c1a.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74c1a.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=fseeko -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_74c1a.dir/objects1.rsp  -o cmTC_74c1a.js  
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ee037/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ee037.dir/build.make CMakeFiles/cmTC_ee037.dir/build
+Building C object CMakeFiles/cmTC_ee037.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=sigaction -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_ee037.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ee037.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee037.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=sigaction -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_ee037.dir/objects1.rsp  -o cmTC_ee037.js  
+
+
+Determining if the function nanosleep exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5dc75/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5dc75.dir/build.make CMakeFiles/cmTC_5dc75.dir/build
+Building C object CMakeFiles/cmTC_5dc75.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=nanosleep -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_5dc75.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5dc75.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dc75.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=nanosleep -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_5dc75.dir/objects1.rsp  -o cmTC_5dc75.js  
+
+
+Determining if the function sysconf exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bab9a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bab9a.dir/build.make CMakeFiles/cmTC_bab9a.dir/build
+Building C object CMakeFiles/cmTC_bab9a.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=sysconf -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_bab9a.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bab9a.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bab9a.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=sysconf -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_bab9a.dir/objects1.rsp  -o cmTC_bab9a.js  
+
+
+Determining if the function pow exists in the m passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8be74/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8be74.dir/build.make CMakeFiles/cmTC_8be74.dir/build
+Building C object CMakeFiles/cmTC_8be74.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=pow -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_8be74.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'pow' is a builtin with type 'double (double, double)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+1 warning generated.
+Linking C executable cmTC_8be74.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8be74.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=pow -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_8be74.dir/objects1.rsp  -o cmTC_8be74.js @CMakeFiles/cmTC_8be74.dir/linklibs.rsp
+
+
+Determining if the function atan exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_47435/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_47435.dir/build.make CMakeFiles/cmTC_47435.dir/build
+Building C object CMakeFiles/cmTC_47435.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=atan -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_47435.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'atan' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'atan' is a builtin with type 'double (double)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan
+                              ^
+1 warning generated.
+Linking C executable cmTC_47435.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47435.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=atan -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_47435.dir/objects1.rsp  -o cmTC_47435.js @CMakeFiles/cmTC_47435.dir/linklibs.rsp
+
+
+Determining if the function atan2 exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4cd71/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4cd71.dir/build.make CMakeFiles/cmTC_4cd71.dir/build
+Building C object CMakeFiles/cmTC_4cd71.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=atan2 -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_4cd71.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'atan2' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan2
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'atan2' is a builtin with type 'double (double, double)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan2
+                              ^
+1 warning generated.
+Linking C executable cmTC_4cd71.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cd71.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=atan2 -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_4cd71.dir/objects1.rsp  -o cmTC_4cd71.js @CMakeFiles/cmTC_4cd71.dir/linklibs.rsp
+
+
+Determining if the function ceil exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1441a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1441a.dir/build.make CMakeFiles/cmTC_1441a.dir/build
+Building C object CMakeFiles/cmTC_1441a.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=ceil -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_1441a.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'ceil' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS ceil
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'ceil' is a builtin with type 'double (double)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS ceil
+                              ^
+1 warning generated.
+Linking C executable cmTC_1441a.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1441a.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=ceil -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_1441a.dir/objects1.rsp  -o cmTC_1441a.js @CMakeFiles/cmTC_1441a.dir/linklibs.rsp
+
+
+Determining if the function copysign exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46fdc/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_46fdc.dir/build.make CMakeFiles/cmTC_46fdc.dir/build
+Building C object CMakeFiles/cmTC_46fdc.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=copysign -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_46fdc.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'copysign' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS copysign
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'copysign' is a builtin with type 'double (double, double)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS copysign
+                              ^
+1 warning generated.
+Linking C executable cmTC_46fdc.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46fdc.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=copysign -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_46fdc.dir/objects1.rsp  -o cmTC_46fdc.js @CMakeFiles/cmTC_46fdc.dir/linklibs.rsp
+
+
+Determining if the function cos exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_117be/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_117be.dir/build.make CMakeFiles/cmTC_117be.dir/build
+Building C object CMakeFiles/cmTC_117be.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=cos -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_117be.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'cos' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cos
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'cos' is a builtin with type 'double (double)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cos
+                              ^
+1 warning generated.
+Linking C executable cmTC_117be.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_117be.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=cos -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_117be.dir/objects1.rsp  -o cmTC_117be.js @CMakeFiles/cmTC_117be.dir/linklibs.rsp
+
+
+Determining if the function cosf exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_81a90/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_81a90.dir/build.make CMakeFiles/cmTC_81a90.dir/build
+Building C object CMakeFiles/cmTC_81a90.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=cosf -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_81a90.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'cosf' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cosf
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'cosf' is a builtin with type 'float (float)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cosf
+                              ^
+1 warning generated.
+Linking C executable cmTC_81a90.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81a90.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=cosf -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_81a90.dir/objects1.rsp  -o cmTC_81a90.js @CMakeFiles/cmTC_81a90.dir/linklibs.rsp
+
+
+Determining if the function fabs exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4c41f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4c41f.dir/build.make CMakeFiles/cmTC_4c41f.dir/build
+Building C object CMakeFiles/cmTC_4c41f.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=fabs -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_4c41f.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'fabs' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS fabs
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'fabs' is a builtin with type 'double (double)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS fabs
+                              ^
+1 warning generated.
+Linking C executable cmTC_4c41f.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c41f.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=fabs -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_4c41f.dir/objects1.rsp  -o cmTC_4c41f.js @CMakeFiles/cmTC_4c41f.dir/linklibs.rsp
+
+
+Determining if the function floor exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2cb1/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e2cb1.dir/build.make CMakeFiles/cmTC_e2cb1.dir/build
+Building C object CMakeFiles/cmTC_e2cb1.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=floor -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_e2cb1.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'floor' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'floor' is a builtin with type 'double (double)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+1 warning generated.
+Linking C executable cmTC_e2cb1.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2cb1.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=floor -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_e2cb1.dir/objects1.rsp  -o cmTC_e2cb1.js @CMakeFiles/cmTC_e2cb1.dir/linklibs.rsp
+
+
+Determining if the function log exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2a84/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e2a84.dir/build.make CMakeFiles/cmTC_e2a84.dir/build
+Building C object CMakeFiles/cmTC_e2a84.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=log -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_e2a84.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'log' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS log
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'log' is a builtin with type 'double (double)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS log
+                              ^
+1 warning generated.
+Linking C executable cmTC_e2a84.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2a84.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=log -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_e2a84.dir/objects1.rsp  -o cmTC_e2a84.js @CMakeFiles/cmTC_e2a84.dir/linklibs.rsp
+
+
+Determining if the function pow exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_696a0/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_696a0.dir/build.make CMakeFiles/cmTC_696a0.dir/build
+Building C object CMakeFiles/cmTC_696a0.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=pow -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_696a0.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'pow' is a builtin with type 'double (double, double)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+1 warning generated.
+Linking C executable cmTC_696a0.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_696a0.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=pow -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_696a0.dir/objects1.rsp  -o cmTC_696a0.js @CMakeFiles/cmTC_696a0.dir/linklibs.rsp
+
+
+Determining if the function scalbn exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6c521/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6c521.dir/build.make CMakeFiles/cmTC_6c521.dir/build
+Building C object CMakeFiles/cmTC_6c521.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=scalbn -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_6c521.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'scalbn' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS scalbn
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'scalbn' is a builtin with type 'double (double, int)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS scalbn
+                              ^
+1 warning generated.
+Linking C executable cmTC_6c521.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c521.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=scalbn -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_6c521.dir/objects1.rsp  -o cmTC_6c521.js @CMakeFiles/cmTC_6c521.dir/linklibs.rsp
+
+
+Determining if the function sin exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cec3a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cec3a.dir/build.make CMakeFiles/cmTC_cec3a.dir/build
+Building C object CMakeFiles/cmTC_cec3a.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=sin -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_cec3a.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'sin' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sin
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'sin' is a builtin with type 'double (double)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sin
+                              ^
+1 warning generated.
+Linking C executable cmTC_cec3a.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cec3a.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=sin -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_cec3a.dir/objects1.rsp  -o cmTC_cec3a.js @CMakeFiles/cmTC_cec3a.dir/linklibs.rsp
+
+
+Determining if the function sinf exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_53d97/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_53d97.dir/build.make CMakeFiles/cmTC_53d97.dir/build
+Building C object CMakeFiles/cmTC_53d97.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=sinf -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_53d97.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'sinf' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sinf
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'sinf' is a builtin with type 'float (float)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sinf
+                              ^
+1 warning generated.
+Linking C executable cmTC_53d97.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53d97.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=sinf -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_53d97.dir/objects1.rsp  -o cmTC_53d97.js @CMakeFiles/cmTC_53d97.dir/linklibs.rsp
+
+
+Determining if the function sqrt exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_86ba7/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_86ba7.dir/build.make CMakeFiles/cmTC_86ba7.dir/build
+Building C object CMakeFiles/cmTC_86ba7.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=sqrt -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_86ba7.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'sqrt' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrt
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'sqrt' is a builtin with type 'double (double)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrt
+                              ^
+1 warning generated.
+Linking C executable cmTC_86ba7.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86ba7.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=sqrt -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_86ba7.dir/objects1.rsp  -o cmTC_86ba7.js @CMakeFiles/cmTC_86ba7.dir/linklibs.rsp
+
+
+Determining if the function sqrtf exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0a2c1/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0a2c1.dir/build.make CMakeFiles/cmTC_0a2c1.dir/build
+Building C object CMakeFiles/cmTC_0a2c1.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=sqrtf -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_0a2c1.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'sqrtf' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrtf
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'sqrtf' is a builtin with type 'float (float)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrtf
+                              ^
+1 warning generated.
+Linking C executable cmTC_0a2c1.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a2c1.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=sqrtf -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_0a2c1.dir/objects1.rsp  -o cmTC_0a2c1.js @CMakeFiles/cmTC_0a2c1.dir/linklibs.rsp
+
+
+Determining if the function tan exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49a48/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_49a48.dir/build.make CMakeFiles/cmTC_49a48.dir/build
+Building C object CMakeFiles/cmTC_49a48.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=tan -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_49a48.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'tan' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tan
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'tan' is a builtin with type 'double (double)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tan
+                              ^
+1 warning generated.
+Linking C executable cmTC_49a48.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49a48.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=tan -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_49a48.dir/objects1.rsp  -o cmTC_49a48.js @CMakeFiles/cmTC_49a48.dir/linklibs.rsp
+
+
+Determining if the function tanf exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_07f64/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_07f64.dir/build.make CMakeFiles/cmTC_07f64.dir/build
+Building C object CMakeFiles/cmTC_07f64.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=tanf -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_07f64.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'tanf' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tanf
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'tanf' is a builtin with type 'float (float)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tanf
+                              ^
+1 warning generated.
+Linking C executable cmTC_07f64.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07f64.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=tanf -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_07f64.dir/objects1.rsp  -o cmTC_07f64.js @CMakeFiles/cmTC_07f64.dir/linklibs.rsp
+
+
+Determining if the function acos exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4062f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4062f.dir/build.make CMakeFiles/cmTC_4062f.dir/build
+Building C object CMakeFiles/cmTC_4062f.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=acos -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_4062f.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'acos' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS acos
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'acos' is a builtin with type 'double (double)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS acos
+                              ^
+1 warning generated.
+Linking C executable cmTC_4062f.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4062f.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=acos -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_4062f.dir/objects1.rsp  -o cmTC_4062f.js @CMakeFiles/cmTC_4062f.dir/linklibs.rsp
+
+
+Determining if the function asin exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_07ef0/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_07ef0.dir/build.make CMakeFiles/cmTC_07ef0.dir/build
+Building C object CMakeFiles/cmTC_07ef0.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=asin -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_07ef0.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'asin' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS asin
+                              ^
+/usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c:3:6: note: 'asin' is a builtin with type 'double (double)'
+<command line>:4:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS asin
+                              ^
+1 warning generated.
+Linking C executable cmTC_07ef0.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07ef0.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=asin -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_07ef0.dir/objects1.rsp  -o cmTC_07ef0.js @CMakeFiles/cmTC_07ef0.dir/linklibs.rsp
+
+
+Determining if the function iconv_open exists in the iconv passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7c955/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7c955.dir/build.make CMakeFiles/cmTC_7c955.dir/build
+Building C object CMakeFiles/cmTC_7c955.dir/CheckFunctionExists.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DCHECK_FUNCTION_EXISTS=iconv_open -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_7c955.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.3.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7c955.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c955.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DCHECK_FUNCTION_EXISTS=iconv_open -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_7c955.dir/objects1.rsp  -o cmTC_7c955.js @CMakeFiles/cmTC_7c955.dir/linklibs.rsp
+WARNING  root: [33memcc: cannot find library "iconv"[0m
+
+
+Determining if the include file alloca.h exists passed with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bec11/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bec11.dir/build.make CMakeFiles/cmTC_bec11.dir/build
+Building C object CMakeFiles/cmTC_bec11.dir/CheckIncludeFile.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_bec11.dir/CheckIncludeFile.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bec11.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bec11.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_bec11.dir/objects1.rsp  -o cmTC_bec11.js  
+
+
+Performing C SOURCE FILE Test HAVE_SA_SIGACTION succeded with the following output:
+Change Dir: /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ca9b3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ca9b3.dir/build.make CMakeFiles/cmTC_ca9b3.dir/build
+Building C object CMakeFiles/cmTC_ca9b3.dir/src.c.o
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc   -g -O3 -DHAVE_SA_SIGACTION -s ERROR_ON_UNDEFINED_SYMBOLS=1   -o CMakeFiles/cmTC_ca9b3.dir/src.c.o   -c /Users/kaizhu/src/sdl2/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ca9b3.js
+/usr/local/Cellar/cmake/3.3.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca9b3.dir/link.txt --verbose=1
+/usr/local/Cellar/emscripten/1.33.0/libexec/emcc  -g -O3 -DHAVE_SA_SIGACTION -s ERROR_ON_UNDEFINED_SYMBOLS=1    @CMakeFiles/cmTC_ca9b3.dir/objects1.rsp  -o cmTC_ca9b3.js  
+
+Source file was:
+
+#include <signal.h>
+
+int main()
+{
+   (void)sizeof(((struct sigaction *)0)->sa_sigaction);
+   return 0;
+}
+

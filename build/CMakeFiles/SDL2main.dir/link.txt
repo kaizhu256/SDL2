@@ -1,0 +1,1 @@
+/usr/local/Cellar/emscripten/1.33.0/libexec/emar rc libSDL2main.a  @CMakeFiles/SDL2main.dir/objects1.rsp

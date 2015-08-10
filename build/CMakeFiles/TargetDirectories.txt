@@ -1,0 +1,3 @@
+/Users/kaizhu/src/sdl2/build/CMakeFiles/uninstall.dir
+/Users/kaizhu/src/sdl2/build/CMakeFiles/SDL2-static.dir
+/Users/kaizhu/src/sdl2/build/CMakeFiles/SDL2main.dir
